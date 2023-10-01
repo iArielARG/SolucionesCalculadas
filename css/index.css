@@ -1,0 +1,34 @@
+/* Contenedor principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilos de los productos */
+.producto {
+    width: 30%;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+.producto h2 a{
+    color: black;
+}
+
+@media (max-width:520px){
+    .producto{
+        width: 98%;
+        margin: 20px auto;
+    }
+}
